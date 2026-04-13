@@ -18,3 +18,10 @@ The implementation includes:
 Install dependencies with:
 ```bash
 pip install -r requirements.txt
+
+## How to Run
+This script requires the dataset file `dataset1.mat`, which is not included in this repository.
+After preparing the dataset and updating the dataset path inside the script, run:
+
+```bash
+python batch_state_estimation_1d.py
